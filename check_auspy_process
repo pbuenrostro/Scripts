@@ -1,0 +1,20 @@
+#!/bin/bash
+#Script to check Auspy and restart if down
+HOSTNAME=`hostname`
+EMAIL="pbuenrostro@stec-inc.com"
+
+#Email Function
+function email() {
+        mail -s "Process $1 was not running on $HOSTNAME, it has been restarted" $EMAIL < /dev/null
+}
+
+        PS=`ps -ef | grep -v grep | grep -v check_auspy_process | grep -i anls.d | wc -l`
+		if [ $PS -gt 0  ]; then
+		#echo "Auspy is running ok......"
+		exit 0
+		else
+			/stec/apps/licenses/auspy/start_license &
+	        	email Auspy
+	fi
+
+

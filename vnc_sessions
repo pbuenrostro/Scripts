@@ -1,0 +1,6 @@
+#!/bin/bash 
+# User modifiable variables:
+
+VNC=$(ps -ef | grep -i $USER | grep -i 'xvnc-core :' | grep -v grep | awk '{ print $9 }')
+echo Your VNC Sessions are: $VNC
+

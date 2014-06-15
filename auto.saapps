@@ -1,0 +1,31 @@
+
+
+#***********************Applications Directory for STEC SA******************
+cadence -rw,-intr,vers=3,tcp,rsize=32768,wsize=32768,noatime sans120nas:/apps/cadence
+ibm -rw,-intr,vers=3,tcp,rsize=32768,wsize=32768,noatime sans120nas:/apps/ibm
+novas -rw,-intr,vers=3,tcp,rsize=32768,wsize=32768,noatime sans120nas:/apps/novas
+arc -rw,-intr,vers=3,tcp,rsize=32768,wsize=32768,noatime sans120nas:/apps/arc
+denx -rw,-intr,vers=3,tcp,rsize=32768,wsize=32768,noatime sans120nas:/apps/denx
+osci -rw,-intr,vers=3,tcp,rsize=32768,wsize=32768,noatime sans120nas:/apps/osci
+doxygen -rw,-intr,vers=3,tcp,rsize=32768,wsize=32768,noatime sans120nas:/apps/doxygen
+virage -rw,-intr,vers=3,tcp,rsize=32768,wsize=32768,noatime sans120nas:/apps/virage
+xilinx -rw,-intr,vers=3,tcp,rsize=32768,wsize=32768,noatime sans120nas:/apps/xilinx
+synopsys -rw,-intr,vers=3,tcp,rsize=32768,wsize=32768,noatime sans120nas:/apps/synopsys
+setup -rw,-intr,vers=3,tcp,rsize=32768,wsize=32768,noatime sans120nas:/apps/setup
+utilities -rw,-intr,vers=3,tcp,rsize=32768,wsize=32768,noatime sans120nas:/apps/utilities
+mis -rw,-intr,vers=3,tcp,rsize=32768,wsize=32768,noatime sans120nas:/apps/mis
+sge -rw,-intr,vers=3,tcp,rsize=32768,wsize=32768,noatime sans120nas:/apps/sge
+wandisco -rw,-intr,vers=3,tcp,rsize=32768,wsize=32768,noatime sans120nas:/apps/wandisco
+svn -rw,-intr,vers=3,tcp,rsize=32768,wsize=32768,noatime sans120nas:/apps/svn
+denali -rw,-intr,vers=3,tcp,rsize=32768,wsize=32768,noatime sans120nas:/apps/denali
+kickstart -rw,-intr,vers=3,tcp,rsize=32768,wsize=32768,noatime sans120nas:/apps/kickstart
+matlab -rw,-intr,vers=3,tcp,rsize=32768,wsize=32768,noatime sans120nas:/apps/matlab
+atrenta -rw,-intr,vers=3,tcp,rsize=32768,wsize=32768,noatime sans120nas:/apps/atrenta
+licenses -rw,-intr,vers=3,tcp,rsize=32768,wsize=32768,noatime sans120nas:/apps/licenses
+sonics -rw,-intr,vers=3,tcp,rsize=32768,wsize=32768,noatime sans120nas:/apps/sonics
+avery -rw,-intr,vers=3,tcp,rsize=32768,wsize=32768,noatime sans120nas:/apps/avery
+agnisys -rw,-intr,vers=3,tcp,rsize=32768,wsize=32768,noatime sans120nas:/apps/agnisys
+cadtools -rw,-intr,vers=3,tcp,rsize=32768,wsize=32768,noatime sans120nas:/apps/cadtools
+local -rw,-intr,vers=3,tcp,rsize=32768,wsize=32768,noatime sans120nas:/apps/local
+auspy -rw,-intr,vers=3,tcp,rsize=32768,wsize=32768,noatime sans120nas:/apps/auspy
+modules-3.2.9c -rw,-intr,vers=3,tcp,rsize=32768,wsize=32768,noatime sans120nas:/apps/modules-3.2.9c

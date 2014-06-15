@@ -1,0 +1,1 @@
+/stec/apps/mis/scripts/lmstat -a -c 3457@samatrix02 | more

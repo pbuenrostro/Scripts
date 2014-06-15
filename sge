@@ -1,0 +1,12 @@
+#!/bin/csh
+# SGE qrsh wrapper script
+set WHOAMI=`whoami`
+set EMAIL=$WHOAMI@stec-inc.com
+set HOSTNAME=`hostname`
+
+#Source SGE Environment if not set
+if (! $?SGE_ROOT) then
+        source /stec/apps/sge/sge6_2u5/grid_setup.csh
+endif
+/stec/apps/sge/sge6_2u5/bin/lx24-amd64/qstat -f > /tmp/paul
+

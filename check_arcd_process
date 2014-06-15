@@ -1,0 +1,21 @@
+#!/bin/bash
+#Script to check arcd and restart if down
+HOSTNAME=`hostname`
+EMAIL="pbuenrostro@stec-inc.com"
+
+#Email Function
+function email() {
+        mail -s "Process $1 was not running on $HOSTNAME, it has been restarted" $EMAIL < /dev/null
+}
+
+        PS=`ps -ef | grep -v grep | grep -v check_arcd_process | grep -i arcd | wc -l`
+ 	USER=`ps -ef | grep -v grep | grep -v check_arcd_process| grep -i arcd | awk '{print $(1)}' | sort | uniq`
+		if [ $PS -gt 0  ]; then
+#		echo "arcd is running ok......"
+		exit 0
+		else
+			/stec/apps/licenses/arc/start_license &
+	        	email arcd
+	fi
+
+
